@@ -1,0 +1,26 @@
+{
+  "name": "yeti-syntax",
+  "theme": "syntax",
+  "version": "0.1.2",
+  "description": "Yeti Syntax - A subtle light colored theme for Atom.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jesseweed/yeti-syntax"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.100.0"
+  },
+  "readme": "# Yeti Syntax\n\nA subtle light colored syntax theme for Atom.\n\n[Yeti UI](https://atom.io/themes/yeti-ui) also available.\n\n![Screenshot](https://github.com/jesseweed/yeti-syntax/raw/master/screenshot.png)\n\n\n### Custom Icons\n[ ![Screenshot](https://github.com/jesseweed/yeti-syntax/raw/master/_icons/circular/circular-128x128.png) ](_icons/circular/)\n[ ![Screenshot](https://github.com/jesseweed/yeti-syntax/raw/master/_icons/rounded/rounded-128x128.png) ](_icons/rounded/)\n[ ![Screenshot](https://github.com/jesseweed/yeti-syntax/raw/master/_icons/squared/squared-128x128.png) ](_icons/squared/)\n\n\n\n## Feeling Darker?\n\nCheckout Yeti's cousin themes [Seti UI](https://atom.io/themes/seti-ui) & [Seti Syntax](https://atom.io/themes/seti-syntax)",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/jesseweed/yeti-syntax/issues"
+  },
+  "homepage": "https://github.com/jesseweed/yeti-syntax",
+  "_id": "yeti-syntax@0.1.2",
+  "dist": {
+    "shasum": "f40efbfd6de09934f1ce7e8fb574b7c5eb600c79"
+  },
+  "_resolved": "/tmp/d-114810-6786-w9xurg/package.tgz",
+  "_from": "/tmp/d-114810-6786-w9xurg/package.tgz"
+}

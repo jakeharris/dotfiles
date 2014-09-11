@@ -1,0 +1,19 @@
+[3646:0911/143939:ERROR:browser_main_loop.cc(163)] Running without the SUID sandbox! See https://code.google.com/p/chromium/wiki/LinuxSUIDSandboxDevelopment for more information on developing with the sandbox on.
+[3646:0911/143940:INFO:audio_manager_pulse.cc(256)] Failed to connect to the context.  Error: Connection refused
+libGL error: MESA-LOADER: could not create udev device for fd 9
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+App load time: 3076ms
+[3681:0911/143944:INFO:renderer_main.cc(227)] Renderer process started
+[3646:0911/144006:INFO:CONSOLE(11)] "activate linter-clang", source: /home/m/.atom/packages/linter-clang/lib/init.coffee (11)
+[3646:0911/144011:INFO:CONSOLE(18)] "Window load time: 23361ms", source: /opt/atom/resources/app/src/window-bootstrap.js (18)
+[3791:0911/144120:INFO:renderer_main.cc(227)] Renderer process started
+[3646:0911/144143:INFO:CONSOLE(11)] "activate linter-clang", source: /home/m/.atom/packages/linter-clang/lib/init.coffee (11)
+[3646:0911/144145:INFO:CONSOLE(18)] "Window load time: 18274ms", source: /opt/atom/resources/app/src/window-bootstrap.js (18)
+[3646:0911/170947:INFO:CONSOLE(943)] "EditorScrollView scrolled when it shouldn't have.", source: /opt/atom/resources/app/src/editor-component.js (943)
+[3646:0911/170947:INFO:CONSOLE(943)] "EditorScrollView scrolled when it shouldn't have.", source: /opt/atom/resources/app/src/editor-component.js (943)
+[7200:0911/181209:INFO:renderer_main.cc(227)] Renderer process started
+[3646:0911/181211:INFO:CONSOLE(85)] "Uncaught Error: spawn ENOENT", source: events.js (85)
+[3646:0911/181423:INFO:CONSOLE(70)] "The handle(24) returned by watching /home/m/Documents/github/spam/stack/test.hpp is the same with an already watched path(/home/m/Documents/github/spam/stack-sim/test.hpp)", source: /opt/atom/resources/app/node_modules/pathwatcher/lib/main.js (70)
+[3646:0911/181529:INFO:CONSOLE(85)] "Uncaught Error: spawn ENOENT", source: util.js (85)
+[3646:0911/182110:ERROR:raw_channel_posix.cc(139)] recvmsg: Connection reset by peer
+[3646:0911/182110:ERROR:raw_channel_posix.cc(139)] recvmsg: Connection reset by peer

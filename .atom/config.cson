@@ -1,0 +1,25 @@
+'exception-reporting':
+  'userId': '42ee6f6f-14b8-00ca-5851-ede9dce84e3d'
+'welcome':
+  'showOnStartup': false
+'metrics':
+  'userId': 'fcbf1997-2544-4b21-bd6f-62524b6c915a'
+'core':
+  'audioBeep': false
+  'themes': [
+    'yeti-ui'
+    'oddfellows-light-syntax'
+  ]
+  'disabledPackages': [
+    'tabs'
+    'tree-view'
+  ]
+'tabs':
+  'showIcons': true
+'tree-view':
+  'hideVcsIgnoredFiles': false
+  'hideIgnoredNames': false
+  'showOnRightSide': false
+'linter':
+  'lintOnChange': false
+  'showHighlighting': false
