@@ -1,3 +1,9 @@
 [user]
 	name = Jake Harris
 	email = milieu@javakat.io
+[filter "hawser"]
+	clean = git hawser clean %f
+	smudge = git hawser smudge %f
+	required = true
+[push]
+	default = simple
