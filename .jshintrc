@@ -19,8 +19,11 @@
     "maxdepth": "3", 
     "browser": "true",
     "globals": { 
-        "angular": true,
-        "$": true,
-        "$scope": true
+      "angular": true,
+      "$": true,
+      "$scope": true,
+      "require": true,
+      "console": true,
+      "__dirname": true
     }
 }
