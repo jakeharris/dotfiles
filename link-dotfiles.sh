@@ -1,6 +1,6 @@
 
 # idea from @smockle (http://github.com/smockle/dotfiles)
-#!/usr/bin/env sh
+#!/bin/bash
 
 platform=''
 case "$OSTYPE" in
