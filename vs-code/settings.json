@@ -1,0 +1,21 @@
+{
+  "window.zoomLevel": 1,
+  "editor.tabSize": 2,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "files.exclude": {
+    "node_modules": true
+  },
+  "workbench.editor.showTabs": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "terminal.integrated.scrollback": 10000,
+  "breadcrumbs.enabled": true,
+  "liveshare.featureSet": "insiders",
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "editor.formatOnSave": true,
+  "workbench.colorTheme": "SynthWave '84",
+  "workbench.tree.renderIndentGuides": "none",
+  "editor.autoIndent": false
+}

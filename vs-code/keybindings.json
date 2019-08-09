@@ -1,0 +1,16 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "cmd+enter",
+    "command": "git.stageSelectedRanges",
+    "when": "isInDiffEditor"
+  },
+  {
+    "key": "shift+cmd+c",
+    "command": "git.checkout"
+  },
+  {
+    "key": "cmd+k cmd+t",
+    "command": "workbench.action.terminal.focus"
+  }
+]
