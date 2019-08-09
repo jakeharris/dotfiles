@@ -13,8 +13,13 @@ case "$OSTYPE" in
   *)        platform='windows' ;;
 esac
 
-rm ~/.bashrc
-ln -s ~/Projects/dotfiles/.bashrc ~/.bashrc
+cd ~
+
+if [ -f '.bashrc']; then
+  rm .bashrc
+fi
+
+ln -s Projects/dotfiles/.bashrc .bashrc
 
 if [[ $platform == 'osx' ]]; then
   pushd ~/Library/Application\ Support/Code/User
