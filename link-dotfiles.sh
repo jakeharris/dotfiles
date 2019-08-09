@@ -1,6 +1,7 @@
 
 #!/bin/bash
-# idea from @smockle (http://github.com/smockle/dotfiles)
+# idea from @smockle
+# techniques learned from @bryanbates
 
 set -e
 
@@ -13,13 +14,13 @@ case "$OSTYPE" in
   *)        platform='windows' ;;
 esac
 
-cd ~
+REPOROOT="$( cd $(dirname $0) ; pwd -P)"
 
 if [ -f '.bashrc']; then
   rm .bashrc
 fi
 
-ln -s Projects/dotfiles/.bashrc .bashrc
+ln -s ${REPOROOT}/.bashrc .bashrc
 
 if [[ $platform == 'osx' ]]; then
   pushd ~/Library/Application\ Support/Code/User
@@ -31,8 +32,8 @@ if [[ $platform == 'osx' ]]; then
     rm keybindings.json
   fi
 
-  ln -s ~/Projects/dotfiles/vs-code/settings.json    ./settings.json
-  ln -s ~/Projects/dotfiles/vs-code/keybindings.json ./keybindings.json
+  ln -s ${REPOROOT}/vs-code/settings.json    ./settings.json
+  ln -s ${REPOROOT}/vs-code/keybindings.json ./keybindings.json
   popd
 fi
 
