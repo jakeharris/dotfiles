@@ -16,12 +16,6 @@ esac
 
 REPOROOT="$( cd $(dirname $0) ; pwd -P)"
 
-if [ -f '.bashrc']; then
-  rm .bashrc
-fi
-
-ln -s ${REPOROOT}/.bashrc .bashrc
-
 if [[ $platform == 'osx' ]]; then
   pushd ~/Library/Application\ Support/Code/User
 
